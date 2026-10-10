@@ -1,0 +1,7 @@
+stable-baselines3
+gym
+shapely
+pyyaml
+ir-sim>2.4.0
+shimmy
+tensorboard

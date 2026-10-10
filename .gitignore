@@ -1,0 +1,30 @@
+models/
+**/__pycache__/
+*.pyc
+*.pth
+*.zipMiniconda3-latest-Linux-x86_64.sh
+# 忽略 Miniconda 安装包
+Miniconda3-latest-Linux-x86_64.sh
+
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 忽略 VSCode 本地配置（如果你需要同步配置，可以删掉这一行）
+.vscode/
+
+# 忽略 LaTeX 编译生成的中间文件（避免 paper 文件夹太大）
+paper/**/*.aux
+paper/**/*.log
+paper/**/*.out
+paper/**/*.bbl
+paper/**/*.blg
+paper/**/*.synctex.gz
+paper/**/*.pdf
+paper/**/*.fls
+paper/**/*.fdb_latexmk
+
+# 忽略大型模型权重（按需调整）
+*.pt
+*.pth
+*.ckpt
